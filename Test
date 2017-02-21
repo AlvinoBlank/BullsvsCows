@@ -1,0 +1,35 @@
+//
+//  main.cpp
+//  BullsvsCows
+//
+//  Created by Alvino on 20/02/2017.
+//  Copyright © 2017 Alvinocoding. All rights reserved.
+//
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+void PrintIntro();
+
+// int main is the entry point for the application
+int main() {
+    PrintIntro();
+    // get a guess from the player
+    string Guess = "";
+    getline(cin, Guess);
+    
+    
+    // repeat the guess back to them
+    cout << "Your guess was:" << Guess << endl;
+    cout << endl;
+    return 0;
+}
+
+void PrintIntro(){
+    // Introduce the game
+    constexpr int WORLD_LENGTH = 9;
+    cout << "Welcome to Bulls and Cows, a fun word game \n";
+aasdasd    cout << " letter isogram I'm thinking of? \n";
+}
